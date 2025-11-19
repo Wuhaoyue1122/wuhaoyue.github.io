@@ -40,3 +40,13 @@ ul {
 li {
     margin-bottom: 8px;
 }
+.profile-photo {
+    width: 200px;           /* 设置照片宽度 */
+    height: 200px;          /* 设置照片高度 */
+    border-radius: 50%;     /* 这个魔法属性能把方照片变成圆形！ */
+    object-fit: cover;      /* 确保照片在圆形里不变形 */
+    border: 3px solid rgb(255, 255, 255); /* 给照片加一个白色边框 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* 给照片加一个淡淡的阴影 */
+    display: block;         /* 让照片自己占一行 */
+    margin: 0 auto 20px;    /* 让照片水平居中，并在下方留出20像素的空白 */
+}
